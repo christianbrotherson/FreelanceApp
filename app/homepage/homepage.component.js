@@ -7,24 +7,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const core_1 = require("@angular/core");
-const platform_browser_1 = require("@angular/platform-browser");
-const homepage_component_1 = require("./homepage/homepage.component");
-const app_component_1 = require("./app.component");
-let AppModule = class AppModule {
+let HomepageComponent = class HomepageComponent {
 };
-AppModule = __decorate([
-    core_1.NgModule({
-        imports: [
-            platform_browser_1.BrowserModule
-        ],
-        declarations: [
-            app_component_1.AppComponent,
-            homepage_component_1.HomepageComponent
-        ],
-        bootstrap: [
-            app_component_1.AppComponent
-        ]
+HomepageComponent = __decorate([
+    core_1.Component({
+        selector: 'homepage',
+        template: '<h1>Home</h1>'
     })
-], AppModule);
-exports.AppModule = AppModule;
-//# sourceMappingURL=app.module.js.map
+], HomepageComponent);
+exports.HomepageComponent = HomepageComponent;
+//# sourceMappingURL=homepage.component.js.map
