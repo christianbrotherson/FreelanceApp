@@ -12,7 +12,7 @@ let HomepageComponent = class HomepageComponent {
 HomepageComponent = __decorate([
     core_1.Component({
         selector: 'homepage',
-        template: '<h1>Home</h1>'
+        template: '<h1>Homepage</h1>'
     })
 ], HomepageComponent);
 exports.HomepageComponent = HomepageComponent;
