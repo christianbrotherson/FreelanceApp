@@ -1,11 +1,13 @@
-<h1>Documents</h1>
+<h1>{{ pageTitle }}</h1>
 
 <div *ngFor="let doc of documents">
   <h3>{{ doc.title }}</h3>
 
   <em>{{ doc.description }}</em>
 
-  <a href="{{ doc.file_url }}">Download File</a>
+  <div>
+    <a href="{{ doc.file_url }}">Download File</a>
+  </div>
 
   <p>
     {{ doc.updated_at }}
