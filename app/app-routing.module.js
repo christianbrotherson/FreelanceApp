@@ -18,6 +18,7 @@ const routes = [
     { path: 'documents', component: documents_component_1.DocumentsComponent },
     { path: 'proposals', component: proposal_list_component_1.ProposalListComponent },
     { path: 'proposals/new', component: proposal_new_component_1.ProposalNewComponent },
+    { path: 'proposal/:id', component: proposal_new_component_1.ProposalNewComponent },
 ];
 let AppRoutingModule = class AppRoutingModule {
 };
